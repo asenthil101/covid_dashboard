@@ -1,0 +1,35 @@
+{
+  "name": "a99-zaurak",
+  "version": "0.1.0",
+  "description": "COVID 19 information/data dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a99-zaurak.git"
+  },
+  "keywords": [
+    "Final",
+    "project",
+    "app",
+    "project"
+  ],
+  "author": "zaurak",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a99-zaurak/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a99-zaurak#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.5.0",
+    "chart.js": "^3.7.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.7.3"
+  }
+}
